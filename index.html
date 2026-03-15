@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeswanth Burle | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS CSS for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Devicon for technical icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Gradient Orbs -->
+    <div class="bg-gradient shape-1"></div>
+    <div class="bg-gradient shape-2"></div>
+    <div class="bg-gradient shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Yeswanth<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#contact" class="btn-primary">Connect</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h3 data-aos="fade-down" data-aos-delay="100">Welcome to my universe, I am</h3>
+            <h1 data-aos="fade-right" data-aos-delay="300" class="text-glow glitch-effect">Yeswanth Burle</h1>
+            <div class="typed-container" data-aos="fade-up" data-aos-delay="500">
+                <span class="typed-text"></span>
+            </div>
+            <p class="hero-desc" data-aos="fade-up" data-aos-delay="700">
+                A computer science engineering student passionate about full-stack development, 
+                exploring modern frameworks, and solving complex algorithmic challenges.
+            </p>
+            <div class="hero-btns" data-aos="fade-up" data-aos-delay="900">
+                <a href="#projects" class="btn-primary">Explore My Work</a>
+                <a href="assets/Yeswanth_Burle_CV.pdf" class="btn-outline" target="_blank" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="social-links-hero" data-aos="fade-up" data-aos-delay="1100">
+                <a href="https://github.com/Yeswanth-Burle" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yeswanth-burle/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:yeswanthburle1432@gmail.com" target="_blank" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="grid-2">
+                <div class="about-content glass-card" data-aos="fade-right">
+                    <h3>Aspiring Software Engineer</h3>
+                    <p>I am a highly motivated Computer Science student deeply focused on building scalable web platforms and mastering data structures. My expertise spans Python, C++, and the complete modern JavaScript ecosystem (Node.js, React). I thrive in dynamic environments where problem-solving and innovation are key.</p>
+                    <br>
+                    <div class="tags">
+                        <span class="tag">Problem-Solving</span>
+                        <span class="tag">Team Player</span>
+                        <span class="tag">Adaptability</span>
+                        <span class="tag">Leadership</span>
+                    </div>
+                </div>
+                
+                <div class="education-timeline glass-card" data-aos="fade-left">
+                    <h3><i class="fas fa-graduation-cap highlight"></i> Education</h3>
+                    
+                    <div class="edu-item">
+                        <div class="edu-header">
+                            <h4>B.Tech in Computer Science and Engineering</h4>
+                            <span class="edu-date">Aug 2023 - Present</span>
+                        </div>
+                        <p class="edu-school">Lovely Professional University, Phagwara</p>
+                        <p class="edu-score highlight">CGPA: 7.05</p>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-header">
+                            <h4>Intermediate</h4>
+                            <span class="edu-date">Apr 2021 - Mar 2023</span>
+                        </div>
+                        <p class="edu-school">Tirumala Junior College, Vizag</p>
+                        <p class="edu-score highlight">Percentage: 92.6%</p>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-header">
+                            <h4>Matriculation</h4>
+                            <span class="edu-date">Apr 2020 - Mar 2021</span>
+                        </div>
+                        <p class="edu-school">Tirumala E.M School, Vizag</p>
+                        <p class="edu-score highlight">Percentage: 100%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Arsenal</h2>
+            
+            <div class="skills-category" data-aos="fade-up">
+                <h3><i class="fas fa-laptop-code highlight"></i> Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i> C++</div>
+                    <div class="skill-card"><i class="devicon-python-plain colored"></i> Python</div>
+                    <div class="skill-card"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+                </div>
+            </div>
+
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-layer-group highlight"></i> Frameworks</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="devicon-html5-plain colored"></i> HTML5</div>
+                    <div class="skill-card"><i class="devicon-css3-plain colored"></i> CSS3</div>
+                    <div class="skill-card"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+                    <div class="skill-card"><i class="devicon-react-original colored"></i> React</div>
+                    <div class="skill-card"><i class="devicon-tailwindcss-original colored"></i> Tailwind CSS</div>
+                </div>
+            </div>
+
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="fas fa-database highlight"></i> Tools & Platforms & Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="devicon-mysql-plain colored"></i> MySQL</div>
+                    <div class="skill-card"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
+                </div>
+                <div class="soft-skills">
+                    <span class="tag">Problem-Solving</span>
+                    <span class="tag">Team Player</span>
+                    <span class="tag">Adaptability</span>
+                    <span class="tag">Leadership</span>
+                    <span class="tag">Decision-Making</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="grid-3">
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <i class="fas fa-rocket project-icon"></i>
+                        <span class="project-date">Jan '26 - Feb '26</span>
+                    </div>
+                    <h3>Startup-Match</h3>
+                    <p>A full-stack web platform connecting startup founders through AI-based co-founder matching and project marketplace. Includes matching engine and live notifications.</p>
+                    <div class="tags">
+                        <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">Socket.io</span><span class="tag">Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Yeswanth-Burle/Startup-Match" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <i class="fas fa-leaf project-icon"></i>
+                        <span class="project-date">Mar '25 - Jun '25</span>
+                    </div>
+                    <h3>Farmers-Portal</h3>
+                    <p>A web application connecting farmers directly with retailers. Features product listings, a bidding system, order management, and responsive UI mapped to database workflows.</p>
+                    <div class="tags">
+                        <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">HTML</span><span class="tag">Tailwind</span><span class="tag">JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Yeswanth-Burle/Farmer-Portal" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                        <span class="project-date">Mar '25 - Jun '25</span>
+                    </div>
+                    <h3>RealTime-Security-Event-Logger</h3>
+                    <p>A Python real-time Windows Security Log Viewer that reads system logs and highlights threat levels. Interactive GUI with live updates via Tkinter and CSV/JSON export.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span><span class="tag">Tkinter</span><span class="tag">Security</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Yeswanth-Burle/Real-Time-Security-Logger" target="_blank" class="btn-sm"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training section -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Professional Training</h2>
+            <div class="training-card glass-card" data-aos="zoom-in">
+                <div class="training-header">
+                    <h3><i class="fas fa-laptop-code highlight"></i> CSE PATHSHALA – Data Structures and Algorithms</h3>
+                    <span class="date">June '25 - July '25</span>
+                </div>
+                <div class="training-details">
+                    <p><i class="fas fa-check-circle print-icon"></i> Completed hands-on training in Object-Oriented Programming (OOP), data structures, algorithms, and problem-solving using C++.</p>
+                    <p><i class="fas fa-check-circle print-icon"></i> Learned about applying custom algorithms, data structures, and real-time analytics.</p>
+                    <p><i class="fas fa-check-circle print-icon"></i> Gained practical experience in writing optimized code, implementing sorting/filtering logic, and working with structured project workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Certifications -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certificates & Achievements</h2>
+            <div class="grid-3">
+                <div class="achievement-card glass-card" data-aos="fade-up">
+                    <i class="fab fa-hackerrank text-glow"></i>
+                    <h4>5-Star Rating</h4>
+                    <p>HackerRank (Jan '26)</p>
+                </div>
+                <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code text-glow"></i>
+                    <h4>50+ Problems</h4>
+                    <p>LeetCode (Jan '26)</p>
+                </div>
+                <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-trophy text-glow"></i>
+                    <h4>160 Days of Problem Solving</h4>
+                    <p>GeeksforGeeks (Aug '25)</p>
+                </div>
+            </div>
+            
+            <div class="cert-gallery grid-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="cert-folder glass-card" onclick="openModal('assets/certificates/cert-cse.png')">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <div class="folder-content">
+                        <div class="folder-image">
+                            <img src="assets/certificates/cert-cse.png" alt="Training in C++ and DSA Certificate" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/222/00f0ff?text=Certificate+Missing'">
+                        </div>
+                        <div class="folder-info">
+                            <h4><i class="fas fa-certificate highlight"></i> Training in C++ and DSA</h4>
+                            <p>CSE PATHSHALA</p>
+                            <span class="cert-date">July '25</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-folder glass-card" onclick="openModal('assets/certificates/cert-coursera.png')">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <div class="folder-content">
+                        <div class="folder-image">
+                            <img src="assets/certificates/cert-coursera.png" alt="Software Engineering Certificate" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/222/00f0ff?text=Certificate+Missing'">
+                        </div>
+                        <div class="folder-info">
+                            <h4><i class="fas fa-certificate highlight"></i> Software Engineering: Implementation and Testing</h4>
+                            <p>Coursera</p>
+                            <span class="cert-date">Mar '25</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-folder glass-card" onclick="openModal('assets/certificates/cert-python.png')">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <div class="folder-content">
+                        <div class="folder-image">
+                            <img src="assets/certificates/cert-python.png" alt="Python Industrial Training Certificate" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/222/00f0ff?text=Certificate+Missing'">
+                        </div>
+                        <div class="folder-info">
+                            <h4><i class="fas fa-certificate highlight"></i> Python Industrial Training</h4>
+                            <p>Code Sprint</p>
+                            <span class="cert-date">Mar '24</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="grid-2">
+                <div class="contact-info glass-card" data-aos="fade-right">
+                    <h3>Let's Build Something Amazing.</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:yeswanthburle1432@gmail.com">yeswanthburle1432@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+917337090502">+91 7337090502</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/yeswanth-burle/" target="_blank">linkedin.com/in/yeswanth-burle/</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="button" class="btn-primary" onclick="window.location.href='mailto:yeswanthburle1432@gmail.com'">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yeswanth Burle. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Yeswanth-Burle" target="_blank"><i class="fab fa-github" aria-label="GitHub"></i></a>
+                <a href="https://www.linkedin.com/in/yeswanth-burle/" target="_blank"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
