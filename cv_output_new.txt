@@ -1,0 +1,53 @@
+ Yeswanth Burle  
+Linked In:  https://www.linkedin.com/in/yeswanth -burle/                                               Email :  yeswanthburle1432@gmail.com  
+GitHub:    https://github.com/Yeswanth -Burle                                                                             Mobile:  +91-7337090502  
+SKILLS  
+• Languages :               C++,  Java, P ython, JavaScript  
+• Frameworks : HTML  and CSS,  NodeJS,  React , Tailwind CSS  
+• Tools/Platforms : MySQL,  MongoDB  
+• Soft Skills : Problem -Solving,  Team  Player,  Adaptability , Leadership, Decision -Making  
+PROJECTS  
+• Startup -Match  | GitHub  Jan 26 – Feb 26 
+◦ Developed a full -stack web platform connecting startup founders through AI -based co-founder  matching and  
+  a startup project marketplace.  
+◦ Implemented secure authentication, profile management, project posting, applications   and real -time chat  
+  between matched users.  
+◦ Built a rule -based matching engine and integrated live notifications with unread message tracking.  
+             Tech: React (Vite), Node.js, Express, MongoDB, Socket.io, Tailwind CSS, JWT, Bcrypt  
+• Farmers -Portal  | GitHub  Mar 25 – Jun 25 
+◦ Developed a Farmers  portal for A simple web application connecting farmers directly  with retailers,  featuring  
+product listings, bidding system, and order management.  
+◦ Farmers list products and manage bids/orders, while retailers browse items, place bids, and track order  
+             status.   
+◦ Deployed the full -stack system on XAMPP with a responsive UI and efficient database workflows.  
+  Tech: PHP, MySQL, HTML, Tailwind CSS, JavaScript, XAMPP  
+• RealTime -Security -Event -Logger  | GitHub  Mar 25 – Jun 25 
+◦ Built a real -time Windows Security Log Viewer that reads system logs, identifies  users, and highlights threat  
+levels with color indicators.  
+◦ Created a n interactive Tkinter GUI with live log updates, CSV/JSON export, and alert  notifications for  critical 
+events.  
+◦ Added advanced monitoring for failed logins, privilege escalations, account changes,  process activity, and 
+credential -theft attempts.  
+Tech:  Python, Tkinter  
+TRAINING  
+• CSE PATHSHALA  – Data Structures and Algorithms  I Certificate   Jun 25 - Jul 25 
+◦ Completed hands -on training in Object -Oriented Programming (OOP), data structures,  algorithms, file  
+handling, and problem -solving using C++.  
+◦ Learned about  applying custom algorithms, data structures, and real -time analytics.  
+◦ Gained practical experience in writing optimized code, implementing sorting/filtering logic,  and working with 
+structured project workflows.  
+  CERTIFICATES  
+• Responsive Web Design  – FreeCodeCamp  | Certificate                                                                                 Oct 25 
+• Software Engineering: Implementation and Testing – Coursera  | Certificate                                              Mar 25                             
+• Python industrial Training – Code Sprint  | Certificate                                                                                                    Mar 24  
+ACHIEVEMENTS                                                
+• Secured a 5 -star proficiency rating on HackerRank                                                                                         Jan 26 
+•  Solved 50+ coding problems on Leetcode                                                                                                      Jan 26 
+•  GFG 160 -160 Days of Problem Solving  on Geeks forGeeks                                                                           Aug 25                                                                                               
+   EDUCATION  
+• Lovely  Professional  University                                                                                                 Phagwara, Punjab  
+Bachelor  of Technology - Computer Science and Engineering;  CGPA:  7.05                         Aug 2023  - Present 
+• Tirumala Junior College                                                                                                Vizag , Andhra Pradesh  
+ Intermediate;  Percentage:  92.6                                                                                          Apr 2021  – Mar 2023  
+• Tirumala E.M School                                                                                                       Vizag, Andhra Pradesh  
+   Matriculation;  Percentage:  100                                                                                        Apr 2020 – Mar 2021 
